@@ -1,0 +1,33 @@
+.container {
+ display: flex;
+ flex-direction: row;
+}
+
+p {
+color: greenyellow;
+}
+
+.a {
+height: 50px;
+flex-grow: 1;
+height: 100px;
+border: 1px;
+border-color: black;
+background-color: aqua;
+text-align: center;
+}
+
+.b {
+background-color: blue;
+height: 100px;
+flex-grow: 5;
+text-align: center;
+align-self: flex-end;
+}
+
+.c {
+flex-grow: 5;
+background-color: blueviolet;
+height: 100px;
+text-align: center;
+}

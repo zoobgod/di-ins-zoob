@@ -1,0 +1,98 @@
+body {
+
+  background-color: lightcyan;
+}
+
+p {
+  font-family: Poppins, Arial;
+}
+
+.top-bar {
+display: grid;
+grid-template-columns: 40px 1fr;
+column-gap: 30px;
+row-gap: 40px;
+
+
+
+}
+
+.menu-bar {
+  display: flex;
+  font-weight: 500;
+  border: 3px;
+border-color: brown;
+column-gap: 30px;
+position: relative;
+justify-content: right;
+flex-direction: row;
+}
+
+.name-logo {
+  display: flex;
+  font-weight: 700;
+  font-size: 30px;
+  border: 3px;
+  border-color: brown;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 40px;
+justify-content: center;
+}
+
+.my-pic {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
+}
+
+.my-pic-photo {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 40px;
+  border: 20px;
+  border-color: red;
+  outline: 10px;
+  outline-color: black;
+  
+}
+
+.right-grid-info {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+}
+
+.button-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio {
+
+}
+
+.resume {
+
+}
+
+.blog-info {
+
+}
+
+.contact {
+
+
+}
+
+
+

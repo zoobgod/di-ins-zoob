@@ -1,0 +1,31 @@
+.grid {
+display: grid;
+grid-template-columns: 1fr 4fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+row-gap: 10px;
+column-gap: 8px;
+text-align: center;
+
+}
+
+.grid {
+  line-height: 100px;
+}
+
+.grid-item-1 {
+background-color: brown;
+
+}
+
+.grid-item-2 {
+  background-color: aqua;
+  margin-right: 100px;
+  }
+  
+
+.grid-item-last {
+  background-color: yellow;
+  margin: 0px;
+  grid-column: 1 / span 2;
+  margin-right: 100px;
+}

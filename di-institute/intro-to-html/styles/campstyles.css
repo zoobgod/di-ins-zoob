@@ -1,0 +1,25 @@
+p {
+  font-family: arial;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.nickname {
+  color: gray;
+  font-weight: normal;
+}
+.time-date {
+  color: gray;
+  font-weight: normal;
+}
+.header-tweet {
+  width: 400px;
+  margin-bottom: 10px;
+}
+.link-user {
+  color: rgb(1, 158, 255);
+}
