@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&family=Instrument+Serif:ital@0;1&family=Pacifico&family=Raleway:wght@400;600;700;800;900&family=Russo+One&family=Yeseva+One&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="papaDiv">
+    <div>
+      <button id="benjaminButtons">Generate Quote</button>
+    </div>
+
+    <div class="mamaDiv">
+      <!-- <div id="quotemarks">"</div> -->
+      <div id="quote"></div>
+      <div id="author"></div>
+    </div>
+  </div>
+
+  <div class="new-Quote">
+    <h2>Add a new quote:</h2>
+    <form>
+      <label for="quoteInput">Quote:</label>
+      <input type="text" id="quoteInput" name="quoteInput">
+      
+      <label for="authorInput">Author:</label>
+      <input type="text" id="authorInput" name="authorInput">
+      
+      <button type="submit" onclick="addQuote()">Add Quote</button>
+    </form>
+  </div>
+
+
+<form id="authorFilterForm">
+  <label for="authorFilterInput">Filter by author:</label>
+  <input type="text" id="authorFilterInput" name="authorFilterInput">
+  <button type="submit">Filter</button>
+</form>
+<div id="quoteContainer">
+  <p id="quote"></p>
+  <p id="author"></p>
+  <button id="prevButton">Previous</button>
+  <button id="nextButton">Next</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

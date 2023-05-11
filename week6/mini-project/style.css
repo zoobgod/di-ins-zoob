@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(194, 152, 131);
+}
+
+.papaDiv {
+  padding-top: 400px;
+    background-color: rgb(230, 203, 155);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+#benjaminButtons {
+  background-image: linear-gradient(to bottom right, rgb(45, 163, 253), rgb(141, 18, 174));
+  color: white;
+  border-color: rgb(75, 75, 228);
+  border-radius: 19px;
+  height: 35px;
+  width: 180px;
+  font-size: 20px;
+  font-family: Raleway, Arial;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* #quotemarks {
+  font-size: 30px;
+  color: rgb(75, 75, 228);
+} */
+
+.mamaDiv {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#quote {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 30px;
+  font-size: 50px;
+  color: rgb(51, 62, 107);
+  font-family: Cormorant, Arial;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: rgb(85, 125, 210);
+  padding-right: 90px ;
+  font-family: Russo One, Arial;
+  font-weight: 900;
+}
