@@ -112,6 +112,30 @@ const robots = [
     createRobot();
   }
   )
+
+  searchBar.addEventListener('keyup', function(){
+    let search = searchBar.value.toLowerCase();
+    let filteredRobots = robots.filter(function(robot){
+      return robot.name.toLowerCase().includes(search);
+    })
+    robots = filteredRobots;
+    createRobot();
+  })
+
+  sortButton.addEventListener('click', function(){
+    robots.sort(function(a, b){
+      if(a.name < b.name){
+        return -1;
+      } else if(a.name > b.name){
+        return 1;
+      } else {
+        return 0;
+      }
+    })
+    createRobot();
+  })
+
+
   //create a button that will sort the robots by name
   let sortButton = document.createElement('button');
   sortButton.textContent = 'Sort by name';

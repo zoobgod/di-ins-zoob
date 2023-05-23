@@ -1,0 +1,8 @@
+<users>
+    <name> John </name>
+    <name> Mary </name>
+    <user>
+        <name> John </name>
+        <email> johndoe@gmail.com </email>
+    </user>
+</users>
