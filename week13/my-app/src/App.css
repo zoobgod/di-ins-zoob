@@ -1,0 +1,98 @@
+h2{
+  color: rgb(14, 93, 55);
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#meetGreet {
+font-family: Kablammo;
+font-size: 50px;
+color: #4B0082;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Bebas";  
+  src: local("BebasNeue-Regular.ttf"),
+    url("./fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kablammo";  
+  src: local("Kablammo-Regular"),
+    url("./fonts/Kablammo-Regular.ttf") format("truetype");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  background-color: #282c34;
+}
+
+#posterPreview {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.fetchButton {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.movieRandom {
+  background: linear-gradient(to bottom right, #4B0082, #000000);
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.movieInfo {
+  margin: 10px 0;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('partials/headers') %>
+    <h1>Shop</h1>
+    <h2><%= locals.firstName %></h2>
+    <h3><%= locals.firstName %></h3>
+
+    <!-- if else statement -->
+    <% if(locals.login) { %> 
+        <h2>welcome</h2>
+        <% } else { %>
+            <h2>PLease Login</h2>
+    <% } %>
+
+
+    <%
+            let str = ""
+            if(locals.login) {
+                str= '<h2> welcome</h2>'
+
+            }
+            else {
+                str ="<h1>please login</h1>"
+            }
+    %>
+    <%- str %>
+
+<% for (const item in locals.users ) { %>
+<h2><%= users[item].name %></h2>
+<% } %>
+
+<h2><%= locals.products %></h2>
+
+<% for (const item in locals.data ) { %>
+    <h2><%= data[item].name %> - <%= data[item].price %> </h2>
+    <% } %>
+    
+
+</body>
+</html>
