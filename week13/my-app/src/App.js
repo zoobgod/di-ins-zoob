@@ -12,6 +12,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import * as React from 'react';
+import GuessMovie from './components/guessingGame.jsx';
 
 
 
@@ -46,6 +47,7 @@ function App() {
 
       <KinoAll />
       <Input  />
+      <GuessMovie />
       </ThemeProvider>
     </div>
   );

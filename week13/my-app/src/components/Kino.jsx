@@ -62,5 +62,7 @@ const KinoAll = () => {
   )
 }
 
+
+
 export default KinoAll
 

@@ -76,3 +76,7 @@ SELECT c.city, co.country
 FROM city c 
 JOIN country co ON c.country_id = co.country_id;
 
+-- write a request to delete one row from the table
+DELETE FROM customer WHERE customer_id = 599;
+
+SELECT SUM(LENGTH(column_name) - LENGTH(REPLACE(column_name, 'symbol', ''))) AS total_count FROM your_table;
