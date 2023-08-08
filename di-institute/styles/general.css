@@ -1,12 +1,15 @@
-body {
-  margin: 0;
-  padding-top: 80px;
-  padding-bottom: 1000px;
-  padding-left: 80px;
+.hiya {
+color: blueviolet;
+text-align: center;
+font-size: 30px;
+
 }
 
-p {
-  font-family: Roboto, arial;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.hiya2 {
+border-radius: 90px;
+background-color: #4368e1;
+color: #FFFFFF;
+text-align: center;
+font-size: 30px;
+
 }
