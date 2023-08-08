@@ -21,17 +21,17 @@
 # print(message)
 
 
-from functools import reduce
+# from functools import reduce
 
-def sum_list(lst):
-    total = 0
-    for num in lst:
-        try:
-            total += num
-        except TypeError:
-            pass
-    return total
+# def sum_list(lst):
+#     total = 0
+#     for num in lst:
+#         try:
+#             total += num
+#         except TypeError:
+#             pass
+#     return total
 
-my_list = [2, 3, 1, 2, "four", 42, 1, 5, 3, "imanumber"]
-sum_of_every = sum_list(my_list)
-print(sum_of_every)
+# my_list = [2, 3, 1, 2, "four", 42, 1, 5, 3, "imanumber"]
+# sum_of_every = sum_list(my_list)
+# print(sum_of_every)
